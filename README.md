@@ -54,3 +54,11 @@ See [file].
 
   [file]: file.md
 
+
+SmartyPants
+-----------
+
+Em dash --- usually three ASCII dashes
+
+En dash -- usually two ASCII dashes like 2014--2015.
+
