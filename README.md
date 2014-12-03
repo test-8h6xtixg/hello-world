@@ -5,6 +5,7 @@ A test Hello World repository
 
 This additional paragraph makes the README better.
 
+
 Syntax Highlighting
 -------------------
 
@@ -20,6 +21,7 @@ if [ -d ~/.bash_completion.d ]; then
     unset f
 fi
 ```
+
 
 Fenced Code Blocks in Lists
 ---------------------------
@@ -41,3 +43,11 @@ Fenced Code Blocks in Lists
         $ cd ~/Desktop && ls -l
 
 That's it.
+
+
+Relative links in READMEs
+-------------------------
+
+Explicit: See [file](file.md).
+
+Auto: See [file.md].
