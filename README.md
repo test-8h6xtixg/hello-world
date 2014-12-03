@@ -20,3 +20,24 @@ if [ -d ~/.bash_completion.d ]; then
     unset f
 fi
 ```
+
+Fenced Code Blocks in Lists
+---------------------------
+
+1.  This is code:
+
+    ```bash
+    $ cd ~/Desktop && ls -l
+    ```
+
+2.  This is the exact same thing:
+
+    ```bash
+    $ cd ~/Desktop && ls -l
+    ```
+
+3.  Using regular Markdown indentation instead of fenced code blocks:
+
+        $ cd ~/Desktop && ls -l
+
+That's it.
