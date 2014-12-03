@@ -48,6 +48,9 @@ That's it.
 Relative links in READMEs
 -------------------------
 
-Explicit: See [file](file.md).
+See [file](file.md).
 
-Auto: See [file.md].
+See [file].
+
+  [file]: file.md
+
