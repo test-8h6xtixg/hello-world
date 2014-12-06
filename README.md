@@ -23,8 +23,8 @@ fi
 ```
 
 
-Fenced Code Blocks in Lists
----------------------------
+Fenced Code Blocks in Lists (and Nested Lists)
+----------------------------------------------
 
 1.  This is code:
 
@@ -37,6 +37,15 @@ Fenced Code Blocks in Lists
     ```bash
     $ cd ~/Desktop && ls -l
     ```
+
+    Does GitHub render nested lists correctly or does it have the Redcarpet
+    3.2.1 bug (230)?
+
+    * item 1
+
+    * item 2
+
+    * item 3
 
 3.  Using regular Markdown indentation instead of fenced code blocks:
 
