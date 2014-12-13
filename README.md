@@ -9,6 +9,8 @@ This additional paragraph makes the README better.
 Syntax Highlighting
 -------------------
 
+Using GitHub's triple backtick syntax for code blocks:
+
 ```bash
 $ make
 $ make install
@@ -21,6 +23,21 @@ if [ -d ~/.bash_completion.d ]; then
     unset f
 fi
 ```
+
+Using the more common triple tilde syntax for code blocks:
+
+~~~ bash
+$ make
+$ make install
+
+# Enable custom bash completions:
+if [ -d ~/.bash_completion.d ]; then
+    for f in ~/.bash_completion.d/*.sh; do
+        . "$f"
+    done
+    unset f
+fi
+~~~
 
 
 Fenced Code Blocks in Lists (and Nested Lists)
